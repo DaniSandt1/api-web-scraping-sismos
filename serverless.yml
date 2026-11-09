@@ -1,4 +1,4 @@
-org: TU_ORG                      # <-- cambia por tu org de serverless
+org: danielsandovalt                      # <-- cambia por tu org de serverless
 service: api-web-scraping-sismos
 
 provider:
@@ -7,7 +7,7 @@ provider:
   memorySize: 1024
   timeout: 30
   iam:
-    role: arn:aws:iam::TU_ID_DE_CUENTA:role/LabRole   # <-- cambia por tu role
+    role: arn:aws:iam::465430728696:role/LabRole   # <-- cambia por tu role
   environment:
     TABLE_NAME: TablaSismosIGP
 
